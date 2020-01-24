@@ -1,0 +1,57 @@
+#flyerContainer {
+  max-width: 70%;
+  max-height: 60%;
+  //position: relative;
+  left: 20%;
+  top: 5%;
+  text-align: center;
+  overflow: hidden;
+}
+
+#flyerInfo {
+  position: relative;
+  top: 40%;
+}
+
+#displayFlyerBtn {
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  background-color: #fc7005;
+  color: white;
+}
+/* Change color of button when hovering */
+#displayFlyerBtn:hover {
+  background-color: #f74104; /* Red */
+  color: white;
+}
+
+.flyerSlides {
+  display: block;
+  position: absolute;
+  left: 15%;
+  object-fit: fill;
+  height: 500px;
+  width: 300px;
+}
+
+#slideFlyerRight,
+#slideFlyerLeft {
+  display: none;
+  position: absolute;
+  top: 40%;
+  background-color: white;
+}
+
+#slideFlyerLeft {
+  left: 5%;
+}
+#slideFlyerRight {
+  right: 5%;
+}
+
+#hideBtn {
+  display: none;
+  position: absolute;
+  right: 5%;
+}

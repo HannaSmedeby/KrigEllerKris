@@ -1,0 +1,81 @@
+/*
+*
+--PAGE 1 : HOME--
+*
+*/
+
+/* Background */
+#page1 {
+  height: 100vh;
+  background-image: url("../images/adventure-atmosphere-conifer-418831.jpg");
+  background-repeat: no-repeat;
+  background-size: 100vw;
+  size: cover;
+}
+/* Container to hold logo and pitch-text on front page */
+#firstPageLogoContainer {
+  display: inline-block;
+  cursor: pointer;
+  position: relative;
+  top: 10%;
+  left: 40%;
+  width: 30%;
+  height: 60%;
+  background-image: url("../images/textkris.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+/* pitch-text on front page */
+#logoText {
+  font-size: 28px;
+  position: inherit;
+  color: white;
+  top: 85%;
+  width: 200%;
+  left: -50%;
+  text-align: center;
+  transition: 1s;
+}
+
+#logoText.fade-in {
+  transition-duration: 2s;
+}
+
+/* container with info text and a navigate-to-login-button on first page */
+#firstPageTextContainer {
+  display: inline-block;
+  cursor: pointer;
+  position: relative;
+  top: 2%;
+  left: 39%;
+  width: 30%;
+  height: 45%;
+  background-color: rgba(253, 253, 253, 0.726);
+  border-radius: 50%;
+}
+
+#firstPageText.fade-in {
+  transition-duration: 1s;
+}
+
+/* Info text on first page */
+#firstPageText {
+  font-size: 14px;
+  font-family: "Lucida Grande";
+  color: black;
+  top: 10%;
+  left: -8%;
+  width: 80%;
+  padding: 10% 20%;
+  margin: 5px;
+  position: relative;
+  word-spacing: 5px;
+  border-spacing: 10px;
+  border-radius: 20px;
+}
+
+/* Homepage-button to navigate to login page */
+#createloginbtn {
+  top: 75%;
+  left: 35%;
+}

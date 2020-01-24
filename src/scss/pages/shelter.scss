@@ -1,0 +1,174 @@
+/* 
+*
+-- Page 3 : Search shelter --
+*
+*/
+#page3 {
+  height: 100%;
+  display: flex;
+}
+
+.slideBtns {
+  background-color: transparent;
+  box-shadow: none;
+  color: white;
+  position: absolute;
+  transition: all 0.5s;
+
+  span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+}
+
+#shelterPageContainer {
+  height: 1000px;
+  background-image: url("../images/bird-s-eye-view-forest-green-113338.jpg");
+  background-size: cover;
+  background-size: 100% 100vh;
+  background-repeat: no-repeat;
+  justify-content: center;
+  vertical-align: middle;
+  text-align: center;
+}
+
+#shelterh1 {
+  padding: 200px 20px 20px 20px;
+  color: white;
+  font-size: 50px;
+}
+
+p1 {
+  top: 30px;
+  position: relative;
+  font-size: 20px;
+  color: white;
+}
+
+#searchShelter {
+  position: relative;
+  top: 44px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.774);
+}
+
+#searchShelter:hover {
+  color: #fc7005;
+}
+
+input[name="search"] {
+  width: 42%;
+  top: 40px;
+  position: relative;
+}
+
+#shelterInfoBtn {
+  top: 48%;
+  left: 42%;
+
+  span:after {
+    content: "\00bb";
+    position: absolute;
+    opacity: 1;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+
+  #shelterInfoBtn:hover span {
+    opacity: 1;
+    padding-right: 25px;
+
+    span:after {
+      right: 0;
+    }
+  }
+}
+
+#shelterInfoContainer {
+  display: none;
+  height: 100vh;
+  background-image: url(../images/bird-s-eye-view-forest-green-113338.jpg);
+  background-size: cover;
+  background-size: 100% 100vh;
+  background-repeat: no-repeat;
+  justify-content: center;
+  vertical-align: middle;
+  text-align: left;
+
+  h1 {
+    font-size: 26px;
+    text-align: center;
+    color: rgb(58, 58, 58);
+  }
+
+  h2 {
+    font-size: 18px;
+    color: rgb(58, 58, 58);
+  }
+
+  p {
+    font-size: 14px;
+  }
+}
+
+#backToSearchBtn {
+  top: 6%;
+  left: 20%;
+  padding-left: 30px;
+
+  span:before {
+    content: "\00ab";
+    position: absolute;
+    opacity: 1;
+    top: 0;
+    left: -15px;
+    transition: 0.5s;
+  }
+
+  #backToSearchBtn:hover span {
+    opacity: 1px;
+
+    span:before {
+      left: -30px;
+    }
+  }
+}
+
+#shelterInfoTextContainer {
+  display: none;
+  background-color: rgba(255, 255, 255, 0.479);
+  width: 50%;
+  height: 75%;
+  left: 20%;
+  top: 10%;
+  bottom: 10%;
+  padding: 15px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+#ingress {
+  font-style: italic;
+}
+
+#shelterChecklistContainer {
+  display: none;
+  background-color: rgba(255, 255, 255, 0.479);
+  width: 20%;
+  height: 50%;
+  left: 75%;
+  top: -55%;
+  bottom: 10%;
+  padding: 15px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  text-align: center;
+}
+
+#shelterChecklist {
+  list-style: circle;
+  text-align: left;
+}

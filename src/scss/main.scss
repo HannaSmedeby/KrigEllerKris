@@ -1,0 +1,18 @@
+//Includes
+@import "includes/sidenav";
+
+//Base
+@import "base/buttons.scss";
+@import "base/icons.scss";
+@import "base/input_fields.scss";
+
+//Layout
+@import "layout/container.scss";
+
+//Pages
+@import "pages/home.scss";
+@import "pages/information.scss";
+@import "pages/shelter.scss";
+
+//Components
+@import "components/slideshow.scss";

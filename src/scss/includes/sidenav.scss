@@ -1,0 +1,39 @@
+/* The side navigation menu */
+.sidenav {
+  height: 30%;
+  width: 250px;
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  top: 25%; /* Stay in middle of page */
+  left: 0;
+  background-color: transparent;
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 10px; /* Place content 10px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+
+  /* The navigation menu links */
+  a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    color: rgb(255, 255, 255);
+    display: block;
+  }
+
+  /* When you mouse over the navigation links, change their color */
+  a:hover {
+    color: #fc7005; /* RED #f12d2d*/
+  }
+
+  /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+  @media screen and (max-height: 450px) {
+    .sidenav {
+      padding-top: 15px;
+    }
+    .sidenav a {
+      font-size: 18px;
+    }
+  }
+}

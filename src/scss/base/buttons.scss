@@ -1,0 +1,42 @@
+/* Buttons */
+button {
+  font-size: 18px;
+  border-radius: 20px;
+  border: none;
+  padding: 10px 24px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  outline: none; /* Removes outline in chrome */
+}
+
+/* Navigate to login-page */
+.createloginbtn {
+  background-color: #fc7005;
+  color: white;
+  position: absolute;
+}
+
+/* Change color of button when hovering */
+.createloginbtn:hover {
+  background-color: #f74104; /* Red */
+  color: white;
+}
+
+/* Scroll to top-button */
+#topBtn {
+  display: none;
+  position: fixed;
+  top: 50px;
+  left: 25px;
+  outline: none;
+  padding: none;
+  font-size: 30px;
+  background-color: transparent;
+  z-index: 2;
+  box-shadow: none;
+  color: rgb(255, 255, 255);
+}
+
+/* Change color when hover */
+#topBtn:hover {
+  color: #fc7005;
+}
